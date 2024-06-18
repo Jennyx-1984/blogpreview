@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'figtree-variable','Times New Roman', Times, serif,'Courier New', Courier, monospace,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article{
+    background-color: white;
+    border:2px solid black;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    margin:100px auto;
+    border-radius: 15px;
+    box-shadow:10px 10px black;
+
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner{
+    width: 90%;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.caja{
+    width:80px;
+    height:30px;
+    background-color:hsl(47, 88%, 63%) ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+section{
+    margin:10px 20px 50px 25px;
+}
+
+.pretitol{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-weight: 800;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+h1:hover{
+    color:hsl(47, 88%, 63%);
+
+}
+
+p{
+    font-size: 16px;
+    color:hsl(0, 0%, 50%);
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.avatar{
+    width: 10%;
+    
+}
+
+.nombre{
+    
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+@media (min-width:320px) and (max-width:375px){
+    article{
+        background-color: white;
+        border:2px solid black;
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+        margin:100px auto;
+        border-radius: 15px;
+    
+    }
+}
